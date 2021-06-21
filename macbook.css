@@ -1,0 +1,583 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.rectangle{
+    background-color:#6e6f74;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    height: 805px;
+    width: 1320px;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+
+}
+.trackpad{
+    background-color:#6e6f74;
+    position: absolute;
+    top: 75%;
+    left:50%;
+    height: 325px;
+    width: 520px;
+    transform: translate(-50%,-50%);
+    border: 0.5px  #44464b;
+    box-shadow: inset 0 2px 2px 0 #5f6065 ,inset 0 -2px 2px 0 #5f6065,inset -2px 2px 2px 0 #5f6065,inset 0 -2px 2px 0 #5f6065;
+    border-radius: 15px;
+}
+.keypad
+{
+    background-color:#6e7073;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    height: 435px;
+    width: 1200px;
+    transform: translate(-50%,-50%);
+    border: 1px  #000000;
+    box-shadow: inset 0 2px 2px 0 #595b60 ,inset 0 -2px 2px 0 #595b60,inset -2px 2px 2px 0 #595b60,inset 0 -2px 2px 0 #595b60;
+    border-radius: 15px;
+}
+.touch{
+    background-color:black ;
+    position: absolute;
+    top: 7.5%;
+    left:50%;
+    height: 35px;
+    width: 1190px;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+.twitter{
+    
+    position: absolute;
+    top: 6.6%;
+    left:68%;
+    color:rgb(255, 255, 255);
+}
+.applepay{
+    position: absolute;
+    top: 6.6%;
+    left:21%;
+    color:white;
+}
+.camera{
+    position: absolute;
+    top: 6.6%;
+    left:18%;
+    color:rgb(148, 144, 144);
+}
+.appstore{
+    position: absolute;
+    top: 6.6%;
+    left:15%;
+    color:rgb(28, 89, 202);
+}
+.controlcenter{
+    background-color:rgb(78, 75, 75);
+    position: absolute;
+    top: 7.5%;
+    left:80%;
+    height: 28px;
+    width: 250px;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+.bright{
+    position: absolute;
+    top: 6.6%;
+    left:78%;
+    color:rgb(255, 255, 255);
+}
+.sound{
+    position: absolute;
+    top: 6.6%;
+    left:81.5%;
+    color:rgb(255, 255, 255);
+}
+.mute{
+    position: absolute;
+    top: 6.6%;
+    left:85%;
+    color:rgb(255, 255, 255);
+}
+.siri{
+    position: absolute;
+    top: 6.4%;
+    left:74.5%;
+}
+.left{
+    color:aliceblue;
+    position: absolute;
+    top: 6.4%;
+    left:72.6%;
+    }
+.face{
+    position: absolute;
+    top: 6.6%;
+    left:64%;
+    color:rgb(255, 255, 255);
+}
+.linkdin{
+    position: absolute;
+    top: 6.6%;
+    left:60%;
+    color:rgb(255, 255, 255);
+}
+.finger{
+    position: absolute;
+    top: 6.6%;
+    left:56%;
+    color:rgb(255, 255, 255);
+}
+.pet{
+    position: absolute;
+    top: 5.6%;
+    left: 38%;
+}
+.date a{
+    text-decoration: none;
+    font-family: Helvetica;
+    color: aliceblue;
+    font-size: 10px;
+    position: absolute;
+    top: 7%;
+    left: 25%; 
+}
+.mail{
+    position: absolute;
+    top: 6.6%;
+    left:35%;
+    color:white;
+}
+/*.open
+{
+    transform: translate(-50%,-50%);
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    background-color:white;
+    border-radius:20px;
+    height: 10px;
+    width: 30px;
+}*/
+.quit{
+    position: absolute;
+    top: 6.5%;
+    left:12.5%;
+    color:white;
+}
+.frow{
+    position: absolute;
+    top: 10%;
+    left:12%;
+    background: none;
+    text-align: top;
+}
+.frow ul{
+    display:inline-flex;
+    list-style: none;
+    color:white;
+}
+.frow ul li{
+        width: 50px;
+        height: 45px;
+        margin:5px;
+        border: 2px solid rgb(54, 52, 52);
+        border-radius: 10px;
+        padding:8px;
+        background-color: black;
+        color:white;
+        box-shadow: 0.5px 0.5px #181818;
+}
+.del{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100px;
+    height: 45px;
+    margin:5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.srow{
+    position: absolute;
+    top: 19%;
+    left:20.4%;
+    background: none;
+    text-align: top;
+}
+.srow ul{
+    display:inline-flex;
+    list-style: none;
+    color:white;
+}
+.srow ul li{
+        width: 50px;
+        height: 45px;
+        margin:5px;
+        border: 2px solid rgb(54, 52, 52);
+        border-radius: 10px;
+        padding:8px;
+        background-color: black;
+        color:white;
+        box-shadow: 0.5px 0.5px #181818;
+}
+.tab{
+    position: absolute;
+    top: 0%;
+    left: -12.5%;
+    width: 100px;
+    height: 45px;
+    margin:5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.trow{
+    position: absolute;
+    top: 28%;
+    left:22%;
+    background: none;
+    text-align: top;
+}
+.trow ul{
+    display:inline-flex;
+    list-style: none;
+    color:white;
+}
+.trow ul li{
+        width: 50px;
+        height: 45px;
+        margin:5px;
+        border: 2px solid rgb(54, 52, 52);
+        border-radius: 10px;
+        padding:8px;
+        background-color: black;
+        color:white;
+        box-shadow: 0.5px 0.5px #181818;
+}
+.cap{
+    position: absolute;
+    top: 0%;
+    left: -18%;
+    width: 125px;
+    height: 45px;
+    margin:5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.return{
+    position: absolute;
+    top: 0%;
+    left: 100.5%;
+    width: 100px;
+    height: 45px;
+    margin:5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.fhrow{
+    position: absolute;
+    top: 37%;
+    left:24%;
+    background: none;
+    text-align: top;
+}
+.fhrow ul{
+    display:inline-flex;
+    list-style: none;
+    color:white;
+}
+.fhrow ul li{
+        width: 50px;
+        height: 45px;
+        margin:5px;
+        border: 2px solid rgb(54, 52, 52);
+        border-radius: 10px;
+        padding:8px;
+        background-color: black;
+        color:white;
+        box-shadow: 0.5px 0.5px #181818;
+}
+.shift{
+    position: absolute;
+    top: 0%;
+    left: -23.5%;
+    width: 155px;
+    height: 45px;
+    margin:5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.shift2{
+    position: absolute;
+    top: 0%;
+    left: 100.5%;
+    width: 150px;
+    height: 45px;
+    margin:5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.ffrow{
+    position: absolute;
+    top:46%;
+    left:12%;
+    background: none;
+    text-align: top;
+}
+.ffrow ul{
+    display:inline-flex;
+    list-style: none;
+    color:white;
+}
+.ffrow ul li{
+        width: 50px;
+        height: 45px;
+        margin:5px;
+        border: 2px solid rgb(54, 52, 52);
+        border-radius: 10px;
+        padding:8px;
+        background-color: black;
+        color:white;
+        box-shadow: 0.5px 0.5px #181818;
+}
+.cmd1{
+    position: absolute;
+    top: 0%;
+    left: 100.5%;
+    width: 80px;
+    height: 45px;
+    margin: 5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.cmd2{
+    position: absolute;
+    top: 0%;
+    left: 292.5%;
+    width: 80px;
+    height: 45px;
+    margin: 5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.space{
+    position: absolute;
+    top: 0%;
+    left: 146.6%;
+    width: 320px;
+    height: 45px;
+    margin: 5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.option{
+    position: absolute;
+    top: 0%;
+    left: 338.5%;
+    width: 50px;
+    height: 45px;
+    margin: 5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.leftarrow{
+    position: absolute;
+    top: 49.5%;
+    left: 70.5%;
+    width: 60px;
+    height: 14.5px;
+    margin: 5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.downarrow{
+    position: absolute;
+    top: 49.5%;
+    left: 76%;
+    width: 60px;
+    height: 14.5px;
+    margin: 5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.rightarrow{
+    position: absolute;
+    top: 49.5%;
+    left: 81.5%;
+    width: 60px;
+    height: 14.5px;
+    margin: 5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    box-shadow: 0.5px 0.5px #181818;
+}
+.uparrow{
+    position: absolute;
+    top: 45.3%;
+    left: 76%;
+    width: 60px;
+    height: 14.5px;
+    margin: 5px;
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    padding:8px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    box-shadow: 0.5px 0.5px #181818;
+}
+#cc{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 50%;
+    font-size: 14px;
+    color:rgb(75, 72, 72);
+    position: absolute;
+    top:97%;
+    right: 2%;
+}
+.fsprow{
+    position: absolute;
+    top: 13%;
+    left:17.25%;
+    background: none;
+    text-align: center;
+}
+.fsprow ul{
+    display:inline-flex;
+    list-style: none;
+    color:rgb(255, 255, 255);
+}
+.fsprow ul li{
+        width: 50px;
+        height:10px;
+        margin:5px;
+        border: 2px solid rgb(0, 0, 0);
+        padding:8px ;
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+       border-radius: 10px;
+}
+.ssprow{
+    position: absolute;
+    top: 22.3%;
+    left:72.5%;
+    background: none;
+    text-align: center;
+}
+.ssprow ul{
+    display:inline-flex;
+    list-style: none;
+    color:rgb(255, 255, 255);
+}
+.ssprow ul li{
+        width: 50px;
+        margin:5px;
+        border: 2px solid rgb(0, 0, 0);
+        padding:8px ;
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+       border-radius: 10px;
+}
+.tsprow{
+    position: absolute;
+    top: 31.2%;
+    left:68.9%;
+    background: none;
+    text-align: center;
+}
+.tsprow ul{
+    display:inline-flex;
+    list-style: none;
+    color:rgb(255, 255, 255);
+}
+.tsprow ul li{
+        width: 50px;
+        margin:5px;
+        border: 2px solid rgb(0, 0, 0);
+        padding:8px ;
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+}
+.lsprow{
+    position: absolute;
+    top: 40%;
+    left:60.5%;
+    background: none;
+    text-align: center;
+}
+.lsprow ul{
+    display:inline-flex;
+    list-style: none;
+    color:rgb(255, 255, 255);
+}
+.lsprow ul li{
+        width: 50px;
+        margin:5px;
+        border: 2px solid rgb(0, 0, 0);
+        padding:8px ;
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+}
